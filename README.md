@@ -1,3 +1,24 @@
+## roswww (hydro) - 0.1.3-0
+
+The packages in the `roswww` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro roswww` on `Mon, 05 Jan 2015 23:59:21 -0000`
+
+The `roswww` package was released.
+
+Version of package(s) in repository `roswww`:
+- upstream repository: https://github.com/tork-a/roswww.git
+- release repository: https://github.com/tork-a/roswww-release.git
+- rosdistro version: `0.1.2-1`
+- old version: `0.1.2-1`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## roswww (indigo) - 0.1.2-0
 
 The packages in the `roswww` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo roswww --edit` on `Sat, 13 Dec 2014 05:56:42 -0000`
