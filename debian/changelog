@@ -1,0 +1,34 @@
+ros-hydro-roswww (0.1.3-0raring) raring; urgency=high
+
+  * Separate webserver.py into module and script files (quick fix to #10 <https://github.com/tork-a/roswww/issues/10>).
+  * Contributors: Isaac I.Y. Saito, Jihoon Lee
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Mon, 05 Jan 2015 08:00:00 -0000
+
+ros-hydro-roswww (0.1.2-0raring) raring; urgency=high
+
+  * Re-release into ROS (addresses #1 <https://github.com/tork-a/roswww/issues/3>)
+  * Remove tornado (this dependency is supposed to be taken from rosbridge). Move webserver.py to src folder to follow more common python style (fix #1 <https://github.com/tork-a/roswww/issues/1>)
+  * Add dependency on rosbridge, webserver.py installation.
+  * Remove roswww_pkg metapkg and roswww_pack that doesn't seem to be used. Remove redundant hierarchy.
+  * Code cleaning, conform to PEP8, refactor method names. Add docroot.
+  * Contributors: Isaac IY Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Sat, 13 Dec 2014 08:00:00 -0000
+
+ros-hydro-roswww (0.1.1-0raring) raring; urgency=high
+
+  * roswww) correction in response to the error on buildfarm
+  * roswww) change maintainer. Remove unncessary file
+  * Contributors: Isao Isaac Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Fri, 15 Nov 2013 08:00:00 -0000
+
+ros-hydro-roswww (0.1.0-0raring) raring; urgency=high
+
+  * Catkinize roswww and roswww_pack packages. Change repository from that of jihoonl to tork-a.
+  * Contributors: Isao Isaac Saito, Jihoon Lee, furushchev
+
+ -- Jihoon Lee <jihoonl@yujinrobot.com>  Thu, 14 Nov 2013 08:00:00 -0000
+
+
