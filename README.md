@@ -1,3 +1,24 @@
+## roswww (indigo) - 0.1.5-0
+
+The packages in the `roswww` repository were released into the `indigo` distro by running `/usr/bin/bloom-release roswww --track indigo --rosdistro indigo` on `Sat, 28 Feb 2015 06:04:43 -0000`
+
+The `roswww` package was released.
+
+Version of package(s) in repository `roswww`:
+- upstream repository: https://github.com/tork-a/roswww.git
+- release repository: https://github.com/tork-a/roswww-release.git
+- rosdistro version: `0.1.4-0`
+- old version: `0.1.4-0`
+- new version: `0.1.5-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## roswww (indigo) - 0.1.4-0
 
 The packages in the `roswww` repository were released into the `indigo` distro by running `/usr/bin/bloom-release roswww --track indigo --rosdistro indigo` on `Wed, 28 Jan 2015 09:25:50 -0000`
