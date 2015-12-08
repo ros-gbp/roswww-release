@@ -1,3 +1,24 @@
+## roswww (jade) - 0.1.7-0
+
+The packages in the `roswww` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade roswww` on `Tue, 08 Dec 2015 07:21:16 -0000`
+
+The `roswww` package was released.
+
+Version of package(s) in repository `roswww`:
+- upstream repository: https://github.com/tork-a/roswww.git
+- release repository: https://github.com/tork-a/roswww-release.git
+- rosdistro version: `0.1.6-0`
+- old version: `0.1.6-0`
+- new version: `0.1.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## roswww (indigo) - 0.1.7-0
 
 The packages in the `roswww` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo roswww` on `Tue, 08 Dec 2015 07:18:38 -0000`
