@@ -1,0 +1,75 @@
+ros-jade-roswww (0.1.8-0utopic) utopic; urgency=high
+
+  * [doc] Add rostopic-chat sample #31 <https://github.com/tork-a/roswww/issues/31>
+  * [sys] Utilize test_depend that is defined in REP-140 #30 <https://github.com/tork-a/roswww/issues/30> from 130s/impr/utilize_testdepend
+  * Contributors: Kenta Yonekura, Isaac I.Y. Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Mon, 14 Dec 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.7-0utopic) utopic; urgency=high
+
+  * [fix] Developers don't need to create a sample www directory now that it's installed (#28 <https://github.com/tork-a/roswww/issues/28>)
+  * [fix][test] Use install space for testing (to capture the issue raised in #28 <https://github.com/tork-a/roswww/issues/28>)
+  * Contributors: Kenta Yonekura, Isaac I.Y. Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Mon, 07 Dec 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.6-0utopic) utopic; urgency=high
+
+  * [sys] Add travis config and small unit tests (#27 <https://github.com/tork-a/roswww/issues/27>)
+  * [doc] Utilize rosdoc_lite for document generation on ros build farm (#25 <https://github.com/tork-a/roswww/issues/25>)
+  * Contributors: Isaac I.Y. Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Tue, 01 Dec 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.5-0utopic) utopic; urgency=high
+
+  * Install missing launch directory
+  * Contributors: Jihoon Lee
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Sat, 28 Feb 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.4-0utopic) utopic; urgency=high
+
+  * example launchfile. update dependency
+  * configurable package web root
+  * add parmeter in readme
+  * classfy roswww webserver. remove ros runtime dependency
+  * Contributors: Jihoon Lee, Isaac I.Y. Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Wed, 28 Jan 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.3-0utopic) utopic; urgency=high
+
+  * Separate webserver.py into module and script files (quick fix to #10 <https://github.com/tork-a/roswww/issues/10>).
+  * Contributors: Isaac I.Y. Saito, Jihoon Lee
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Mon, 05 Jan 2015 08:00:00 -0000
+
+ros-jade-roswww (0.1.2-0utopic) utopic; urgency=high
+
+  * Re-release into ROS (addresses #1 <https://github.com/tork-a/roswww/issues/3>)
+  * Remove tornado (this dependency is supposed to be taken from rosbridge). Move webserver.py to src folder to follow more common python style (fix #1 <https://github.com/tork-a/roswww/issues/1>)
+  * Add dependency on rosbridge, webserver.py installation.
+  * Remove roswww_pkg metapkg and roswww_pack that doesn't seem to be used. Remove redundant hierarchy.
+  * Code cleaning, conform to PEP8, refactor method names. Add docroot.
+  * Contributors: Isaac IY Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Sat, 13 Dec 2014 08:00:00 -0000
+
+ros-jade-roswww (0.1.1-0utopic) utopic; urgency=high
+
+  * roswww) correction in response to the error on buildfarm
+  * roswww) change maintainer. Remove unncessary file
+  * Contributors: Isao Isaac Saito
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Fri, 15 Nov 2013 08:00:00 -0000
+
+ros-jade-roswww (0.1.0-0utopic) utopic; urgency=high
+
+  * Catkinize roswww and roswww_pack packages. Change repository from that of jihoonl to tork-a.
+  * Contributors: Isao Isaac Saito, Jihoon Lee, furushchev
+
+ -- Isaac Isao Saito <iisaito@opensource-robotics.tokyo.jp>  Thu, 14 Nov 2013 08:00:00 -0000
+
+
