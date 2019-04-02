@@ -2,6 +2,23 @@
 Changelog for package roswww
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.12 (2019-03-20)
+-------------------
+* [doc] Minor URL update. (`#40 <https://github.com/tork-a/roswww/issues/40>`_)
+* fix CDN URL (`#45 <https://github.com/tork-a/roswww/issues/45>`_)
+* Contributors: Isaac I.Y. Saito, Makito Ishikura
+
+0.1.11 (2018-01-22)
+-------------------
+* Enable client testing && fix redirect bug (`#42 <https://github.com/tork-a/roswww/issues/42>`_)
+  * disable test for prerelease / stable ros repo
+  * fix test script for kinetic
+  * roswww/roswww_server.py: redirect for get package index without slash
+  * roswww: add test code for web client
+  * roswww: add start_port, end_port to launch
+  * roswww/webserver.py: fix parsing ros arguments
+* Contributors: Yuki Furuta
+
 0.1.10 (2017-04-07)
 -------------------
 * [capability] Add dis/enabling cache feature `#39 <https://github.com/tork-a/roswww/issues/39>`_
