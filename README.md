@@ -1,3 +1,26 @@
+## roswww (melodic) - 0.1.13-1
+
+The packages in the `roswww` repository were released into the `melodic` distro by running `/usr/bin/bloom-release roswww --rosdistro melodic --track melodic` on `Thu, 28 Oct 2021 10:52:50 -0000`
+
+The `roswww` package was released.
+
+Version of package(s) in repository `roswww`:
+
+- upstream repository: https://github.com/tork-a/roswww.git
+- release repository: https://github.com/ros-gbp/roswww-release.git
+- rosdistro version: `0.1.12-0`
+- old version: `0.1.12-0`
+- new version: `0.1.13-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## roswww (kinetic) - 0.1.12-0
 
 The packages in the `roswww` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release roswww --skip-pip --track kinetic --rosdistro kinetic` on `Tue, 02 Apr 2019 15:16:43 -0000`
