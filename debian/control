@@ -1,0 +1,12 @@
+Source: ros-noetic-roswww
+Section: misc
+Priority: optional
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, python3-selenium, ros-noetic-catkin, ros-noetic-rostest
+Homepage: http://wiki.ros.org/roswww
+Standards-Version: 3.9.2
+
+Package: ros-noetic-roswww
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-rosbridge-server, ros-noetic-rosgraph, ros-noetic-rospack
+Description: Feathery lightweight web server for ROS, that is based on Tornado web server module.
